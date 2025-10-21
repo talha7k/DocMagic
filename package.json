@@ -1,7 +1,7 @@
 {
   "name": "docmagic",
   "version": "2.0.0",
-  "description": "🪄 Open source AI-powered document creation platform - Create professional resumes, presentations, CVs, and letters in seconds",
+  "description": "\ud83e\ude84 Open source AI-powered document creation platform - Create professional resumes, presentations, CVs, and letters in seconds",
   "keywords": [
     "ai",
     "document-generation",
@@ -32,9 +32,9 @@
   ],
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
